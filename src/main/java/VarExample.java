@@ -4,18 +4,18 @@ public class VarExample {
     public static void main(String[] args) {
 
         byte aByte = 127;
-        //  byte bByte =aByte +1 ; ошибка
+        //  byte bByte =aByte +1 ; error
         byte cByte = 111;
         System.out.println(aByte + cByte);
 
         short aShort = -32768;
-        //  short aShort = aShort - 1 ; ошибка
+        //  short aShort = aShort - 1 ; error
         short cShort = 0;
         System.out.println(aShort * cShort);
 
 
         int aInt = 1234567890;
-        //  int bInt =aInt  +1 ; ошибка
+        //  int bInt =aInt  +1 ; error
         int cInt = 1235;
         System.out.println(aInt / cInt);
 
@@ -26,7 +26,7 @@ public class VarExample {
 
         float aFloat = 10.1F;
         float bFloat = 0.1F;
-        //float cFloat = 10.1F*10000000000; ошибка
+        //float cFloat = 10.1F*10000000000; error
         System.out.println(aFloat * bFloat);
 
 
