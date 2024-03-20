@@ -53,9 +53,9 @@ public class VarExample {
 
 
 
-        String sString = "Праздник";
-        System.out.println(sString.equals("Победа"));
-        System.out.println(sString.equals("Праздник") && cByte == 111);
+        String sString = "Love";
+        System.out.println(sString.equals("Simple"));
+        System.out.println(sString.equals("Love") && cByte == 111);
     }
 
 }
