@@ -1,16 +1,18 @@
-import java.beans.beancontext.BeanContextChild;
+
 
 public class VarExample {
     public static void main(String[] args) {
 
         byte aByte = 127;
-        //  byte bByte =aByte +1 ; error
+        byte bByte = (byte) (aByte + 1);  // Пример переполнения
         byte cByte = 111;
+        System.out.println(bByte);  // Пример переполнения
         System.out.println(aByte + cByte);
 
         short aShort = -32768;
-        //  short aShort = aShort - 1 ; error
+        short bShort = (short) (aShort - 1);// Пример переполнения
         short cShort = 0;
+        System.out.println(bShort);  // Пример переполнения
         System.out.println(aShort * cShort);
 
 
@@ -46,16 +48,16 @@ public class VarExample {
         }
 
 
-
         System.out.println(aInt / bDouble);
         System.out.println(aDouble % 123);
-        System.out.println(aInt / bDouble*aDouble);
-
+        System.out.println(aInt / bDouble * aDouble);
 
 
         String sString = "Love";
         System.out.println(sString.equals("Simple"));
         System.out.println(sString.equals("Love") && cByte == 111);
+
+
     }
 
 }
