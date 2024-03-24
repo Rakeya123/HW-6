@@ -4,15 +4,15 @@ public class VarExample {
     public static void main(String[] args) {
 
         byte aByte = 127;
-        byte bByte = (byte) (aByte + 1);  // Пример переполнения
+        byte bByte = (byte) (aByte + 1);  // РїРµСЂРµРїРѕР»РЅРµРЅРёРµ
         byte cByte = 111;
-        System.out.println(bByte);  // Пример переполнения
+        System.out.println(bByte);  // РїРµСЂРµРїРѕР»РЅРµРЅРёРµ
         System.out.println(aByte + cByte);
 
         short aShort = -32768;
-        short bShort = (short) (aShort - 1);// Пример переполнения
+        short bShort = (short) (aShort - 1);// РїРµСЂРµРїРѕР»РЅРµРЅРёРµ
         short cShort = 0;
-        System.out.println(bShort);  // Пример переполнения
+        System.out.println(bShort);  // РїРµСЂРµРїРѕР»РЅРµРЅРёРµ
         System.out.println(aShort * cShort);
 
 
